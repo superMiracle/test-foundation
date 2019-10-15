@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <section>
+      <div
+        class="title-bar"
+        data-responsive-toggle="responsive-menu"
+        data-hide-for="large"
+      >
+        <button
+          class="menu-icon"
+          type="button"
+          data-toggle="responsive-menu"
+        ></button>
+        <div class="title-bar-title">Menu</div>
+      </div>
+      <div class="top-bar padding-x-large padding-y-small" id="responsive-menu">
+        <div class="top-bar-left">
+          <ul class="menu align-middle">
+            <li class="menu-text topbar-logo">
+              <img src="etc/img/angel.png" />
+            </li>
+            <li><a href="#0">Today</a></li>
+            <li><a href="#0">New patient</a></li>
+            <li>
+              <input
+                type="search"
+                class="border-round"
+                placeholder="Search patient ..."
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="top-bar-right">
+          <ul class="menu align-middle">
+            <li class="menu-text topbar-icon">
+              <img src="etc/img/angel.png" />
+            </li>
+            <li><a href="#0">Jon Admin</a></li>
+            <li>
+              <a href="#0"
+                >Notifications<span class="badge success">12</span></a
+              >
+            </li>
+            <li><a href="#0">Settings</a></li>
+            <li><a href="#0">Log Out</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="title-bar"
+        data-responsive-toggle="responsive-menu-sub"
+        data-hide-for="large"
+      >
+        <button
+          class="menu-icon"
+          type="button"
+          data-toggle="responsive-menu-sub"
+        ></button>
+        <div class="title-bar-title">Sub-Menu</div>
+      </div>
+      <div
+        class="top-bar padding-x-large padding-y-small color-dark-green"
+        id="responsive-menu-sub"
+      >
+        <div class="top-bar-left">
+          <ul class="menu align-middle">
+            <li class="menu-text topbar-icon">
+              <img src="etc/img/angel.png" />
+            </li>
+            <li><a href="#0">John Johnson</a></li>
+          </ul>
+        </div>
+        <div class="top-bar-right">
+          <ul class="menu">
+            <li><a href="#0">Profile</a></li>
+            <li><a href="#0">Measurements</a></li>
+            <li><a href="#0">Messages</a></li>
+            <li><a href="#0">Diary</a></li>
+            <li><a href="#0">Questionnaires</a></li>
+            <li>
+              <button type="button" class="success button border-round-tiny">
+                Care Paths
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="padding-x-large padding-y-small">
+      <h1 class="float-left">Care Paths</h1>
+      <div class="row">
+        <input type="search" placeholder="Search Care Path..." />
+        <button type="button" class="success button border-round-tiny">
+          Start new care path
+        </button>
+      </div>
+    </section>
+
+    <div class="container-xxlarge padding-x-small">
+      <div class="callout border-round-small">
+        <div class="row">
+          <div class="columns medium-3">
+            <h3>Major trauma flow</h3>
+            <p>Active since : <span>13.04.2019</span></p>
+          </div>
+          <div class="columns medium-6">
+            <p>
+              Patient is currently at Emergency Room or Intensive/Medium Care
+            </p>
+          </div>
+          <div class="columns medium-3 align-right">
+            <button type="button" class="success button border-round-tiny">
+              Discharge from Intensive/Medium Care
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="callout border-round-small">
+        <div class="row">
+          <div class="columns medium-3">
+            <h3>Thorax Onco Flow</h3>
+            <p>Active since : <span>13.04.2019</span></p>
+          </div>
+          <div class="columns medium-6">
+            <ul>
+              <li>
+                Last Activated questionnaire set was activated 2 months into
+                treatment
+              </li>
+              <li>Next qeustinnaire set will activate on 13.10.2019</li>
+            </ul>
+          </div>
+          <div class="columns medium-3 align-right">
+            <button type="button" class="success button border-round-tiny">
+              All qestionnaire activations
+            </button>
+            <button type="button" class="alert button border-round-tiny">
+              Stop Thorax onco flow
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="callout border-round-small">
+        <div class="row">
+          <div class="columns medium-3">
+            <h3>Neuro Pain Flow</h3>
+            <p>Active since : <span>13.04.2019</span></p>
+          </div>
+          <div class="columns medium-6">
+            <p>
+              Current stages:
+            </p>
+            <ul>
+              <li>
+                <span>Locus C3L</span>:<strong>MA01 meeting</strong>, activated:
+                <span>20.09.2019</span>
+              </li>
+              <li>
+                <span>Locus C1R</span>:<strong>Psychological assessment</strong
+                >, activated: <span>20.09.2019</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="callout border-round-small">
+        <div class="row">
+          <div class="columns medium-3">
+            <h3>Generic flow example</h3>
+            <p>Active since : <span>13.04.2019</span></p>
+          </div>
+          <div class="columns medium-6">
+            <p>Current stage: <strong>Medication tracking</strong></p>
+            <ul>
+              <li>Activated: <span>21.09.2019</span></li>
+              <li>Some optional string status</li>
+              <li>
+                (optional, if known label or period) Next fragment:
+                Questionnaires
+              </li>
+            </ul>
+          </div>
+          <div class="columns medium-3 align-right">
+            <button type="button" class="success button border-round-tiny">
+              Open flow
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/what-input/dist/what-input.js"></script>
+    <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
